@@ -39,7 +39,7 @@ function getRandomQuote() {
 function printQuote() {
   let printedQuote = getRandomQuote();
   let quoteProperty = printedQuote.quote;
-  let sourceProperty = printedQuote.source;
+  let authorProperty = printedQuote.author;
   let citationProperty = printedQuote.citation;
   let yearProperty = printedQuote.year;
 
